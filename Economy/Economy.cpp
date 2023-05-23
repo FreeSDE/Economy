@@ -41,17 +41,29 @@ Formula for prices & How to run this
 
     { Supply minus Production cost which is than the demand gets divided by the new supply before multiplying, Inflation Times Base Value which than, we multiple the two numbers founded which equals the price }
 
-    IF no Supply than
-    - Product is unavailable
-    IF Someone buys than
-    - Demand Increases
-    - Supply Decreases a little
-    IF someone sells than
-    - Demand Stays same
-    - Supply Increases
-    IF no one buys or sells than
-    - Demand goes back to normal
-    - Supply goes back to normal
+    IF S is zero (S=0) then
+
+    The formula cannot be calculated due to division by zero, implying the process or the system the formula is applied to is non-functional or in an error state.
+    IF Demand (D) increases then
+
+    The value of P increases, assuming all other factors remain constant.
+    The value of S decreases slightly, signifying that the available resources or supply are being utilized or consumed.
+    If Cₚ increases (cost of production), the value of P decreases if all other variables remain constant.
+    IF a new resource or supply (S) is introduced then
+
+    The value of D stays the same, implying the demand or the need for the resource remains constant.
+    The value of S increases, indicating more resources or supply are now available.
+    If Cₚ decreases (cost of production), the value of P increases if all other variables remain constant.
+    IF there is no change in Demand (D) or Supply (S) then
+
+    The value of D returns to its average or normal level, suggesting a stabilization in the requirement or need for the resource.
+    The value of S also returns to its normal level, indicating a balance in the available resources or supply.
+    IF Inflation increases then
+
+    The value of IBᵥ increases, assuming the base value remains constant, resulting in an increase in P if all other variables remain constant. This reflects the increased price due to inflation.
+    IF Base value decreases then
+
+    The value of IBᵥ decreases, assuming inflation remains constant, leading to a decrease in P if all other variables remain constant. This reflects the decreased price due to a reduction in the base value.
 */
 
 class Items {
